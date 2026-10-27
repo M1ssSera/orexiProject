@@ -1,0 +1,81 @@
+.kontakty {
+  width: 100%;
+  padding: 35px 0;
+  background-color: #d9c4bf;
+}
+
+.kontakty-container {
+  width: 90%;
+  max-width: 1450px;
+  height: 640px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 40% 60%;
+
+  background: #ffffff;
+}
+
+.kontakty-info {
+  padding: 55px 50px;
+}
+
+.kontakty-info h1 {
+  margin: 0 0 60px;
+
+  font-size: 48px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.kontakty-text p {
+  margin: 0 0 28px;
+
+  font-size: 20px;
+  line-height: 1.5;
+  color: #111111;
+}
+
+.kontakty-text .social {
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+
+.messengers {
+  display: flex;
+  gap: 10px;
+}
+
+.messengers a {
+  width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid #777777;
+  border-radius: 50%;
+
+  background: transparent;
+  color: #222222;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  text-decoration: none;
+}
+
+.map {
+  width: 100%;
+  height: 640px;
+}
+
+.map iframe {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  border: 0;
+}

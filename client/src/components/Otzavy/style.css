@@ -1,0 +1,63 @@
+.otzavy {
+  width: 100%;
+  padding: 55px 0 75px;
+  background-color: #ad9f9b;
+}
+
+.otzavy-container {
+  width: 90%;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.otzavy h2 {
+  margin: 0 0 65px;
+
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #444444;
+}
+
+.otzavy h2 span {
+  color: #913f00;
+}
+
+.otzavy-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.otzavy-card {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.otzavy-card > img {
+  display: block;
+  width: 100%;
+  height: 235px;
+  object-fit: cover;
+}
+
+.otzavy-card-content {
+  padding: 35px 40px 30px;
+}
+
+.otzavy-card h3 {
+  margin: 0 0 30px;
+
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #222222;
+}
+
+.otzavy-card p {
+  margin: 0;
+
+  font-size: 19px;
+  line-height: 1.4;
+  color: #111111;
+}

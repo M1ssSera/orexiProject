@@ -1,0 +1,83 @@
+.main {
+  width: 100%;
+  background-color: #d9c4bf;
+}
+.main-hero {
+  width: 100%;
+  min-height: 700px;
+
+  background-image: url('https://415022.lp.tobiz.net/img/1920x0/721448625eaae1e9e92997a552d3643f.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-overlay {
+  width: 100%;
+  min-height: 700px;
+
+  display: flex;
+  align-items: center;
+
+  background: rgba(25, 15, 10, 0.65);
+}
+
+.main-content {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  color: #ffffff;
+}
+
+.main h1 {
+  margin: 0 0 80px;
+
+  font-size: 56px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.main h1 span {
+  color: #d9f56b;
+}
+
+.maintext {
+  margin: 0 0 8px;
+
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.main ul {
+  margin: 0 0 30px;
+  padding-left: 25px;
+}
+
+.main li {
+  margin-bottom: 4px;
+
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.mainbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 385px;
+  height: 55px;
+
+  background: #d9f56b;
+  color: #111111;
+
+  font-size: 18px;
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.mainbutton:hover {
+  background: #c7e955;
+}

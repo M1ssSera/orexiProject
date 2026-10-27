@@ -1,0 +1,81 @@
+.dostavkaoplata {
+  width: 80%;
+  max-width: 1450px;
+  min-height: 650px;
+  margin: 40px auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  background: #cfd3d7;
+}
+
+.dostavkaoplata > img {
+  width: 100%;
+  height: 650px;
+  object-fit: cover;
+}
+
+.dostavkaoplata-container {
+  width: 100%;
+  padding: 70px 60px;
+}
+
+.dostavkaoplata-text {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dostavkaoplata-text h2 {
+  margin: 0 0 30px;
+
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+
+  color: #444444;
+}
+
+.dostavkaoplata-text p {
+  max-width: 500px;
+
+  margin: 0 0 30px;
+
+  font-size: 21px;
+  line-height: 1.5;
+
+  color: #111111;
+}
+
+.dostavkaoplata-text button {
+  width: 250px;
+  height: 60px;
+
+  margin-bottom: 40px;
+
+  border: none;
+
+  background: #d9f06b;
+  color: #111111;
+
+  font-size: 18px;
+
+  cursor: pointer;
+}
+
+.dostavkaoplata-text button:hover {
+  background: #cce65b;
+}
+
+.dostavkaoplata-text img {
+  display: block;
+
+  width: 100%;
+  max-width: 520px;
+  height: 220px;
+
+  object-fit: cover;
+}

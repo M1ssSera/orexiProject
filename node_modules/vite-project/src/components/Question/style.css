@@ -1,0 +1,117 @@
+.question {
+  width: 100%;
+  padding: 45px 0;
+  background: #ad9f9b;
+}
+
+.question-container {
+  width: 90%;
+  max-width: 1450px;
+  min-height: 680px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.question-image {
+  width: 100%;
+  height: 100%;
+}
+
+.question-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.question-form {
+  padding: 75px 70px;
+  background: #ad9f9b;
+}
+
+.question-form h2 {
+  margin: 0 0 25px;
+
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #444444;
+}
+
+.question-form h2 span {
+  color: #913f00;
+}
+
+.question-subtitle {
+  margin: 0 0 45px;
+
+  font-size: 22px;
+  line-height: 1.4;
+  color: #111111;
+}
+
+.question-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.question-form label {
+  margin-bottom: 15px;
+
+  font-size: 18px;
+  color: #111111;
+}
+
+.question-form input {
+  width: 100%;
+  height: 55px;
+  margin-bottom: 32px;
+
+  padding: 0;
+
+  border: none;
+  border-bottom: 1px solid #dddddd;
+  outline: none;
+
+  background: transparent;
+
+  font-size: 17px;
+  color: #222222;
+}
+
+.question-form input::placeholder {
+  color: #d6d3d3;
+}
+
+.question-form input:focus {
+  border-bottom-color: #913f00;
+}
+
+.question-form button {
+  width: 305px;
+  height: 64px;
+
+  margin-top: 5px;
+
+  border: none;
+  background: #d9f06b;
+  color: #111111;
+
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.question-form button:hover {
+  background: #cce65b;
+}
+
+.question-agreement {
+  max-width: 760px;
+  margin: 40px 0 0;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: #111111;
+}

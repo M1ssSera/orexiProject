@@ -1,0 +1,149 @@
+.product-page {
+  width: 100%;
+  padding: 50px 0 90px;
+  background: #ffffff;
+}
+
+.product-container {
+  width: 90%;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.product-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 45px;
+  font-size: 17px;
+  color: #777777;
+}
+
+.product-breadcrumb a {
+  color: #8a5a2b;
+  text-decoration: none;
+}
+
+.product-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.product-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: start;
+}
+
+.product-image {
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: contain;
+
+  border: 1px solid #dddddd;
+  border-radius: 18px;
+
+  background: #ffffff;
+}
+
+.product-mini {
+  display: block;
+
+  width: 85px;
+  height: 85px;
+
+  margin-top: 18px;
+
+  object-fit: cover;
+
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+}
+
+.product-info {
+  min-height: 500px;
+  padding: 60px 45px;
+  background: #d9c4bf;
+}
+
+.product-info h1 {
+  margin: 0 0 25px;
+
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  color: #333333;
+}
+
+.product-stock {
+  margin: 0 0 35px;
+
+  font-size: 18px;
+  color: #687789;
+}
+
+.product-info > p:not(.product-stock) {
+  margin: 0 0 30px;
+
+  font-size: 18px;
+  line-height: 1.55;
+
+  color: #444444;
+}
+
+.product-info h2 {
+  margin: 0 0 30px;
+
+  font-size: 34px;
+  font-weight: 700;
+
+  color: #111111;
+}
+
+.product-info button {
+  min-width: 165px;
+  height: 45px;
+
+  padding: 0 20px;
+
+  border: none;
+  background: #d9f06b;
+  color: #111111;
+
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.product-info button:hover {
+  background: #cce65b;
+}
+
+.product-description {
+  margin-top: 90px;
+  padding-top: 35px;
+
+  border-top: 1px solid #dddddd;
+}
+
+.product-description h2 {
+  margin: 0 0 25px;
+
+  font-size: 31px;
+  font-weight: 700;
+
+  color: #333333;
+}
+
+.product-description p {
+  max-width: 1000px;
+
+  margin: 0;
+
+  font-size: 18px;
+  line-height: 1.7;
+
+  color: #555555;
+}

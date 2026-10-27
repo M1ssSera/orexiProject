@@ -1,0 +1,30 @@
+.photo {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #d9c4bf;
+}
+
+.photo-list {
+  width: 90%;
+  max-width: 1350px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.photo-item {
+  width: 100%;
+  height: 355px;
+  overflow: hidden;
+}
+
+.photo-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  object-fit: cover;
+}
+
